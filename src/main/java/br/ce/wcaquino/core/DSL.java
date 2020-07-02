@@ -20,7 +20,7 @@ public class DSL {
 	
 	/********** TextField e TextArea  ***************/
 
-/*testse*/ 
+/*teste*/ 
 	public void escreve(By by, String texto) {
 		getDriver().findElements(by).sendKeys(texto);
 	}
